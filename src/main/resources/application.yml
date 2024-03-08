@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/item
+    username: root
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  application:
+    name: SpringBootCrud
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQLDialect
